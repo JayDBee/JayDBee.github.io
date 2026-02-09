@@ -14,7 +14,10 @@
       background-position: center;
       font-family: Arial, sans-serif;
       color: #333;
+      text-align: center;
     }
+
+<!-- "welcome to my website" -->
     .content {
       padding: 40px;
       background: rgba(255, 255, 255, 0.85);
@@ -22,12 +25,91 @@
       margin: 60px auto;
       border-radius: 12px;
     }
+
+    h1 {
+        margin: 0;
+    }
+
+    .portal {
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        background-color: #f4f4f4;
+    }
+
+    .portal:hover {
+        transform: scale(1.1);
+    }
+
+    .portal img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px auto;
+    }
+
+    .portal-title {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .coming-soon {
+        text-align: center;
+        padding: 50px;
+        font-size: 2em;
+        color: #666;
+    }
+
+    .portal-page {
+        background-color: #f4f4f4;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+        color: #333;
+    }
   </style>
 </head>
 <body>
   <div class="content">
     <h1>Welcome to My Website</h1>
-    <p>Your content goes here.</p>
+  </div>
+
+  <div class="container">
+
+      <div class="portal" onclick="location.href='coming_soon.html'">
+          <img src="https://via.placeholder.com/200" alt="coming soon">
+          <div class="portal-title">Catalogs</div>
+      </div>
+
+      <div class="portal" onclick="location.href='coming_soon.html'">
+          <img src="https://via.placeholder.com/200" alt="coming soon">
+          <div class="portal-title">Tools</div>
+      </div>
+
+      <div class="portal" onclick="location.href='coming_soon.html'">
+          <img src="https://via.placeholder.com/200" alt="coming soon">
+          <div class="portal-title">Connect&support</div>
+      </div>
   </div>
 </body>
 </html>
+
+<!-- Catalogs (Catalogs.html) -->
+<!-- Tools Page (tools.html) -->
+<!-- Connect&Support Page (connect_support.html) -->
+<!-- "url is https://www.paypal.com/donate/?business=YENYY2EVUABZ4&no_recurring=0&currency_code=USD" -->

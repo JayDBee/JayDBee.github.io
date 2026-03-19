@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interpretations</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('../texas.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.85);
+      max-width: 900px;
+      margin: 60px auto;
+      border-radius: 12px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 18px 28px;
+      border-radius: 12px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    .button:hover {
+      background-color: #005fa3;
+      transform: translateY(-2px);
+    }
+
+    .button:active {
+      transform: translateY(0);
+    }
+
+    .note {
+      margin-top: 20px;
+      color: #555;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Interpretations</h1>
+    <p class="note">Click an interpretation button to open that page. Each interpretation is a separate HTML file.</p>
+    <div class="buttons">
+      <a class="button" href="lesson1.html">Lesson 1</a>
+      <a class="button" href="lesson2.html">Lesson 2</a>
+      <a class="button" href="lesson3.html">Lesson 3</a>
+      <a class="button" href="lesson4.html">Lesson 4</a>
+      <a class="button" href="lesson5.html">Lesson 5</a>
+      <a class="button" href="catalog.html">Back to Catalog</a>
+    </div>
+  </div>
+</body>
+</html>

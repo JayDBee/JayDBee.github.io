@@ -1,0 +1,5 @@
+In these small lessons, we took a look at some of the ways that interpretations and judgments can be built from a personal level. Hopefully, as they were explored in this progression, it became easier to notice their distinctness and separation as a unique ability that we have. Though this did serve as a method to become more familiar with them, my hope is that they gave a meaningful experience so that they can be considered real enough to look back at the effects of their progression. Because the goal was a significant experience, I’d think the effects are worth understanding and why a person’s interpretations are worthy of maintenance or change based on each person’s goals or lifestyles.
+
+
+
+Looking ahead, we can pivot our direction from personal exploration to a larger view. In a zoomed out view, we can see and explore the behaviors of our interpretations, where cycles of resistance and change affect the movement of daily patterns, habits, and as mentioned in the book “thinking fast and slow”, the logical “system 2” side of our experiences can be explored.

@@ -1,0 +1,34 @@
+---
+layout: lesson
+title: Lesson 3
+---
+
+## W3 (draft)
+
+In this lesson, I direct attention to impulse and restraint.
+
+During the time I was learning more about my interpretations, I noticed I was getting more and more meta and introspective of my thoughts due to trying to expand the variety of my thoughts (interpretations) due to novel experiences. Around this time, I became less able to keep a track of what I was interpreting, so taking the chance, we can learn about it through retrospect and also define a limit.
+
+While there are ways that we can look at our interpretations, like the variety of ideas, the frequency, or the understanding that we get from them (similar to W1's intuition vs logical thought process the book *thinking fast and slow* mentions), and consider them through activities like movie genres, spaces and activities like live concerts and early morning walks through a lively downtown, we can try to build our understanding of them either more deeply or broadly based on emotions, strain, and so on as we have receptors in our body because of unique categories.
+
+That probably isn't the normal way someone will learn about their interpretations, since they will have their own experiences that seem to give them a sense of their own self. These are usually from belief systems.
+
+At this time, someone might be tempted to think about the goals or utility of interpretations in the first place, and while that is a valid idea worth discussing, instead here we focus on ways that impulse and restraint can be better defined.
+
+The concept of a fast, or a conscious break from something helps here, which we can see they've been used from diets to, more recently, media consumption.
+
+What we notice through a conscious break, is that a train of thought, which can have a good or bad attachment of feeling or action to it, can change. I'll describe this as a clarity, since in my experiences, clarity or also sometimes a "flow" usually encourages or improves ability similar to warming up before physical activity, and is directional, which if tipped enough can lead to just enough ability to do something not possible in any given rest state.
+
+We can also note how attention plays a role in our interpretations, especially as any unique idea becomes more easily recognizable the more familiar it is.
+
+For this reason, impulse and restraint come back to the picture as we continue to explore our own interpretations and understanding from strings of ideas. But if restraint is our directed attention, then impulse is the opposite.
+
+It isn't to say that impulse is bad, since we usually get very strong sense of clarity or decision based on impulse which is called intuition. It does mean that notably, there is another type of understanding that we get from either side of restraint or impulse.
+
+As it may seem, we have become more aware of our interpretations of the world based on their variety and their frequency, which have been planned based on novelty. While going forward, this is a good foundation, exploring our thoughts by impulse (usually through retrospect) gives us a better understanding of how we can build the concept as a whole.
+
+(*This foreshadows on probability as we look to build. Specifically, what we keep in memory will shed light on what we're growing*)
+
+As I understand it, the change of state that happens in the mind usually comes from a changing world and self, and they help with understanding. We can in this sense have an understanding and choice of who or what we become by planning and thinking about who we are and have been.
+
+How we plan what we can do and what we can't is called a limit and is worthy of exploring.

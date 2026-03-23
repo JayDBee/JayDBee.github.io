@@ -5,8 +5,6 @@ description: >-
   Welcome to my personal website featuring catalogs and lessons.
 baseurl: "JayDBee.github.io"
 url: ""
-twitter_username: jekyllrb
-github_username: jekyll
 
 # Build settings
 theme: minima

@@ -17,11 +17,81 @@
       text-align: center;
     }
 
+    /* Navigation Bar */
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 0;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .navbar li {
+      position: relative;
+    }
+
+    .navbar a {
+      display: block;
+      padding: 15px 20px;
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* Dropdown Menu */
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.95);
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 0 0 8px 8px;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a {
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid #eee;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #e8f4f8;
+    }
+
+    .dropdown-content a:last-child {
+      border-bottom: none;
+    }
+
     .content {
       padding: 40px;
       background: rgba(255, 255, 255, 0.85);
       max-width: 800px;
-      margin: 60px auto;
+      margin: 120px auto 60px auto; /* Added top margin for navbar */
       border-radius: 12px;
     }
 
@@ -76,17 +146,35 @@
   </style>
 </head>
 <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li class="dropdown">
+        <a href="#">Catalog ▼</a>
+        <div class="dropdown-content">
+          {% for collection in site.collections %}
+            {% if collection.label != 'posts' %}
+              <a href="{{ collection.label | relative_url }}/">{{ collection.label | capitalize }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </li>
+      <li><a href="#" onclick="alert('Tools section coming soon!')">Tools</a></li>
+      <li><a href="{{ "/connect-support/" | relative_url }}">Support</a></li>
+    </ul>
+  </nav>
+
   <div class="content">
-    <h1>{{ page.title | default: "Catalogs" }}</h1>
+    <h1>{{ page.title | default: "Interpretations" }}</h1>
 
     <div class="navigation">
       <a href="{{ "/" | relative_url }}" class="nav-button">Back to Home</a>
     </div>
 
     <div class="course-grid">
-      {% for i in (site.interpretations) %}
-      <a href="{{ i.url | relative_url }}" class="lesson-link">
-        {{ i.title }}
+      {% for item in site.interpretations %}
+      <a href="{{ item.url | relative_url }}" class="lesson-link">
+        {{ item.title | default: item.name }}
       </a>
       {% endfor %}
     </div>

@@ -1,59 +1,43 @@
-# JayDBee Jekyll Website
-
-This is a Jekyll website with three main templates:
-
 ## Templates
 
 ### 1. Home Template (`_layouts/home.html`)
-- Similar to the original index.html
-- Features two main buttons: Catalogs and Connect&Support
+- template to the index.html
+- Features navigation: Catalogs of topics, tools, and Support
 - Uses the texas.png background image
 
-### 2. Catalogs Template (`_layouts/catalogs.html`)
-- Lists all available lessons (1-5)
+### 2. Interpretations Template (`_layouts/interpretations.html`)
+- Lists all available lessons 
 - Has navigation back to home
 - Links to individual lesson pages
 
 ### 3. Lesson Template (`_layouts/lesson.html`)
 - Displays lesson content in markdown format
-- Has navigation back to catalogs
-- Styled consistently with the other pages
-
-## Pages
-
-- `index.markdown` - Home page using home layout
-- `catalogs.markdown` - Catalogs page using catalogs layout
-- `connect-support.markdown` - Connect & Support page using home layout
-- `_lessons/lesson1.markdown` through `_lessons/lesson5.markdown` - Individual lesson pages
-
-## Running the Site
-
-To run this Jekyll site:
-
-1. Make sure you have Ruby and Jekyll installed
-2. Navigate to the `static site` directory
-3. Run `bundle install` (if bundler works)
-4. Run `jekyll serve`
-5. Open your browser to `http://localhost:4000`
+- Has navigation back to topic
 
 ## File Structure
 
 ```
 static site/
+├── _interpretations/
+|   ├──Intro.md
+|   ├──lesson1.md
+|   ├──lesson2.md
+|   ├──lesson3.md
+|   ├──lesson4.md
+|   ├──lesson5.md
+|   ├──lesson6.md
+|   ├──lesson7.md
+|   └──Outro.md
 ├── _layouts/
+│   ├── connectsupport.html
 │   ├── home.html
-│   ├── catalogs.html
+│   ├── interpretations.html
 │   └── lesson.html
-├── _lessons/
-│   ├── lesson1.markdown
-│   ├── lesson2.markdown
-│   ├── lesson3.markdown
-│   ├── lesson4.markdown
-│   └── lesson5.markdown
 ├── _config.yml
 ├── index.markdown
-├── catalogs.markdown
+├── interpretations.markdown
 ├── connect-support.markdown
+├── texas.png
 └── Gemfile
 ```
 
@@ -61,5 +45,5 @@ static site/
 
 - Edit `_config.yml` to change site settings
 - Modify the layouts in `_layouts/` to change the design
-- Update lesson content in `_lessons/`
+- Update content for collections in `_config.yml`
 - Add new lessons by creating new files in `_lessons/`

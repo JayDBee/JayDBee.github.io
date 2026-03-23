@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ page.title | default: site.title }}</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('{{ "/texas.png" | relative_url }}');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+    }
+
+    .content {
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.85);
+      max-width: 800px;
+      margin: 60px auto;
+      border-radius: 12px;
+    }
+
+    h1 {
+        margin: 0;
+    }
+
+    .navigation {
+      margin-bottom: 30px;
+    }
+
+    .nav-button {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 14px 22px;
+      border-radius: 10px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .nav-button:hover {
+      background-color: #005fa3;
+    }
+
+    .portal {
+        margin: 20px;
+        padding: 20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        background-color: #f4f4f4;
+    }
+
+    .portal:hover {
+        transform: scale(1.1);
+    }
+
+    .portal img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px auto;
+    }
+
+    .portal-title {
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .portal-page {
+        background-color: #f4f4f4;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+        color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>{{ page.title | default: "Connect & Support" }}</h1>
+  </div>
+
+  <div class="navigation">
+    <a href="{{ "/" | relative_url }}" class="nav-button">Back to Home</a>
+  </div>
+
+  {{ content }}
+
+  <a href="https://www.paypal.com/donate/?business=YENYY2EVUABZ4&no_recurring=0&currency_code=USD" class="nav-button" target="_blank">Donate via PayPal</a>
+
+</body>
+</html>

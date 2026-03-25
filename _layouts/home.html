@@ -161,7 +161,8 @@
       <li class="dropdown">
         <a href="#">Catalog ▼</a>
         <div class="dropdown-content">
-          <a href="{{ '/interpretations/' | relative_url }}">Interpretations</a>
+          <!--a href="{{ '/interpretations/' | relative_url }}">Interpretations</a-->
+          <a href="{{ '/' | append: interpretations | append: '/' | relative_url }}">Interpretations</a>
           <!--{% for collection in site.collections %}
             {% if collection.label != 'posts' %}
               <a href="{{ collection.label | relative_url }}/">{{ collection.label | capitalize }}</a>
@@ -171,7 +172,7 @@
         </div>
       </li>
       <li><a href="#" onclick="alert('Tools section coming soon!')">Tools</a></li>
-      <li><a href="{{ '/support/' | relative_url }}">Support</a></li>
+      <li><a href="{{ /support/ | relative_url }}">Support</a></li>
     </ul>
   </nav>
 

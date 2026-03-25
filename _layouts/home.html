@@ -8,7 +8,7 @@
     body {
       margin: 0;
       padding: 0;
-      background-image: url('{{ "/texas.png" | relative_url }}');
+      background-image: url({{ "/texas.png" | relative_url }});
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -89,7 +89,8 @@
 
     .content {
       padding: 40px;
-      background: rgba(255, 255, 255, 0.85);
+      background: /*<!--!rgba(255, 255, 255, 0.2)
+        ;-->*/ transparent;
       max-width: 800px;
       margin: 120px auto 60px auto; /* Added top margin for navbar */
       border-radius: 12px;
@@ -141,7 +142,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3em;
+        font-size: 3m;
         color: #333;
     }
 
@@ -185,9 +186,8 @@
         <div class="portal-title">Connect&Support</div>
     </div>
   </div> 
-
+-->
   {{ content }}
-    -->
 
 </body>
 </html>

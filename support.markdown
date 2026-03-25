@@ -1,7 +1,7 @@
 ---
-layout: connectsupport
-title: Connect & Support
+layout: support
+title: Support
 ---
-## Connect & Support
+## Support
 
 If you'd like to support this project, you can donate here:

@@ -1,0 +1,20 @@
+---
+layout: lesson
+title: Lesson 7
+---
+
+## W7 security
+
+As we now get further and further. I’d like to wrap this up by mentioning security of a thought.
+
+By now, we can see how we really are affecting and shaping our thoughts less by what we do, and more so by how we reach them. If we continue, we reach a point where thoughts themselves seem like landmarkers. We can discuss certain ideas through discussion, but we notice that they continue and persist as notable arguments. So, if we are to treat them with the distinction that they have developed, we treat now themselves detached from ourselves, and consider a development of themselves or ways to grow them.
+
+At any point until now, we can play with ideas and discover them, but until we reach a certain point we won’t be able to grow them much more through our own means. That is why we borrow security to guard and develop them or “flesh them out” as a form of development. The reason for this is because we are not discarding these anymore, as we might have been doing before due to limits.
+
+As we mentioned, a certain train of thought can lead to a specific clarity or understanding of an idea, which is different from any understanding at any given resting state. How are we then able to grow an idea if it is not able to be sustained?
+
+Note that this leads us to a clue for how we can do so by definition.
+
+We divide our actions then into two states: when we cannot sustain the idea, and when we can reach it. So, to develop it further, we have to be aware that, until this state is reached, any additional information regarding this idea is not building or contributing to it. This is a form of security which helps with the concern of purity of the idea, where it’d be difficult to add to it.
+
+

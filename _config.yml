@@ -16,6 +16,9 @@ collections:
   interpretations:
     output: true
     #permalink: /interpretations/:name/
+  money:
+    output: true
+    #permalink: /money/:name/
 
 # Exclude from processing
 exclude:

@@ -156,14 +156,14 @@
   </nav>
 
   <div class="content">
-    <h1>{{ page.title | default: "Interpretations" }}</h1>
+    <h1>{{ page.title | default: "Commerce" }}</h1>
 
     <div class="navigation">
       <a href="{{ "/" | relative_url }}" class="nav-button">Back to Home</a>
     </div>
 
     <div class="course-grid">
-      {% for item in site.interpretations %}
+      {% for item in site.commerce %}
       <a href="{{ item.url | relative_url }}" class="lesson-link">
         {{ item.title | default: item.name }}
       </a>

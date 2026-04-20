@@ -4,6 +4,7 @@ email: your-email@example.com
 description: >-
   Welcome to my personal website featuring catalogs and lessons.
 baseurl: "JayDBee.github.io"
+#baseurl: ""
 url: ""
 
 # Build settings
@@ -16,6 +17,9 @@ collections:
   interpretations:
     output: true
     #permalink: /interpretations/:name/
+  commerce:
+    output: true
+    #permalink: /commerce/:name/
   money:
     output: true
     #permalink: /money/:name/

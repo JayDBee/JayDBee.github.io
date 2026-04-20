@@ -1,0 +1,6 @@
+---
+layout: lesson
+title: "lesson3"
+---
+
+W3 priority sharedIm working on schedules and priorities this week, yall got any advice for how you prioritize things?I should probs give yall a rundown on what I learn at the end of the week so yall get a taste of the real me huhBut I did find a case for schedules being important to your work/value creation/services/…mediation? And that’s the on-call schedule. Idk how much it’s important thoOn call to what or who you may ask? Do I ideas count as emergencies?Ps i misled yall when i said this week was about priorities and schedulesThe title is called priority schedules and incentives.You see i quit my last job over one big abitlity in work/business that I wasn’t able to do and that’s called ownership/independence. I took this idea from a little book called Theory of Games and Economic Behavior or some shit. Owning your work is huge! And different jobs from sales to product development have different absilities that you can do because of your duties from that job
